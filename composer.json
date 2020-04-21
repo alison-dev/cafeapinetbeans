@@ -1,0 +1,32 @@
+{
+  "name": "alisonsouza/cafeapi",
+  "description": "Biblioteca API para integração com o webservice do SaaS FSPHP",
+  "keywords": [
+    "FSPHP",
+    "xFactoryApp",
+    "alison Souza",
+    "SaaS",
+    "PHP",
+    "Full Stack"
+  ],
+  "homepage": "http://www.xfactoryapp.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alison Souza",
+      "email": "alisonfco@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlisonSouza\\CafeApi\\": "src"
+    }
+  }
+}
+
